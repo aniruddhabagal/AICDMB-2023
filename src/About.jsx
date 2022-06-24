@@ -19,7 +19,7 @@ const About = () => {
           {/* <div className="col-12 col-lg-5 order-md-1"><img src={Papers} alt="" height="100%" width="100%"/></div> */}
           <div className="cforp col-12">
             <p className="lead mt-4 text-justify">
-              AICDMB 2022 warmly invites full length original research papers
+              AICDMB 2023 warmly invites full length original research papers
               describing latest findings and research works to the conference
               from academic professionals, R&D organizations, government
               departments and research scholars from across the globe. The
@@ -33,20 +33,20 @@ const About = () => {
                 <tr>
                   <td>Paper Submission Deadline</td>
                   <td>
-                    October 20, 2021
+                    October 2022
                   </td>
                 </tr>
                 <tr>
                   <td>Paper Acceptance Notification</td>
-                  <td>December 10, 2021</td>
+                  <td>December 2022</td>
                 </tr>
                 <tr>
                   <td>Copyright and Final Paper Submission</td>
-                  <td>December 30, 2021</td>
+                  <td>December 2022</td>
                 </tr>
                 <tr>
                   <td>Conference Dates</td>
-                  <td>February 16 & 17, 2022</td>
+                  <td>February 2023</td>
                 </tr>
               </tbody>
             </table>
