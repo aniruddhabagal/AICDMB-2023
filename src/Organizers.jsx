@@ -81,21 +81,21 @@ const Organizers = () => {
         </div>
       </div>
 
-      <h1 className="display-5 text-center mt-5">Co-Patron</h1>
-      <hr className="ruler" style={{ width: "50px" }} />
-      <div class="profile-card-container">
+      {/* <h1 className="display-5 text-center mt-5">Co-Patron</h1> */}
+      {/* <hr className="ruler" style={{ width: "50px" }} /> */}
+      {/* <div class="profile-card-container">
         <div class="profile-card" style={{ height: "420px" }}>
           <div class="profileImage">
             <img src={Kurt} alt="" className="staff-img" />
           </div>
           <div class="profileHead">
             <h4 class="profileHeadText">Prof. Dr. Mustafa KURT</h4>
-            {/* <h5 className="text-center">General Chair</h5> */}
+            <h5 className="text-center">General Chair</h5>
             <p className="speaker-desc text-center">Vice Rector <br />
             Near East University, Turkey</p>
           </div>
         </div>       
-      </div>
+      </div> */}
 
 
       <h1 className="display-5 text-center mt-5">General Co-Chairs</h1>
@@ -123,7 +123,7 @@ const Organizers = () => {
             </p>
           </div>
         </div>
-        <div class="profile-card" style={{ height: "420px" }}>
+        {/* <div class="profile-card" style={{ height: "420px" }}>
           <div class="profileImage">
             <img src={Bulent} alt="" className="staff-img" height="100%" width="100%"/>
           </div>
@@ -134,7 +134,7 @@ const Organizers = () => {
             Dean - Faculty of Engineering, <br/> Near East University, Turkey
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
 
 {/* publication co chair DR fadi */}
@@ -169,9 +169,9 @@ const Organizers = () => {
         </div>
       </div>
 
-      <h1 className="display-5 text-center mt-5">Publication Chair</h1>
-      <hr className="ruler" style={{ width: "200px" }} />
-      <div class="profile-card-container">
+      {/* <h1 className="display-5 text-center mt-5">Publication Chair</h1> */}
+      {/* <hr className="ruler" style={{ width: "200px" }} /> */}
+      {/* <div class="profile-card-container">
         <div class="profile-card" style={{ height: "420px" }}>
           <div class="profileImage">
             <img src={Fadi} alt="" className="staff-img"  height="100%" width="100%"/>
@@ -185,7 +185,7 @@ Near East University, Turkey
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <h1 className="display-5 text-center mt-5">Organizing Co-Chairs</h1>
       <hr className="ruler" style={{ width: "200px" }} />
