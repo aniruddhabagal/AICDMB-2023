@@ -6,10 +6,9 @@ import Pic2 from "./assets/Prev images/aicdmb21/2.jpg";
 import Pic3 from "./assets/Prev images/aicdmb21/3.jpg";
 import Pic4 from "./assets/Prev images/aicdmb21/1.jpg";
 
-import Hong from "./assets/speakers/honglin.jpg";
 import Anand from "./assets/speakers/anand.jpg";
-import Heena from "./assets/speakers/heena.jpg";
-import Paolo from "./assets/speakers/paolo.jpg";
+import Flammini from './assets/speakers/flammini.jpg'
+
 
 import ProfileCard from "./ProfileCard";
 
@@ -41,11 +40,10 @@ const Aicdmb22 = () => {
         <div className="prev-speakers">
           <h1 className="display-5 text-center mt-5">Speakers</h1>
           <div class="profile-card-container">
-            <ProfileCard name="Dr. Hong Lin" desc="Ph.D., Professor at University of Downtown, Houston" img={Hong} type="Keynote Speaker"/>
-            <ProfileCard name="Dr. Heena Rathore" desc="ACM Distinguished Speaker
-Assistant Professor at University of Texas, USA" img={Heena} type="Keynote Speaker"/>
-            <ProfileCard name="Dr. Paolo Trunfio" desc="Ph.D., Associate Professor of Computer Engineering, University of Calabria, Italy" img={Paolo} type="Keynote Speaker"/>
-            <ProfileCard name="Dr. Anand Nayyar" desc="Faculty, Researcher and Scientist at Duy Tan University, Da Nang, Vietnam" img={Anand} type="Keynote Speaker"/>
+            <ProfileCard name="Dr. Francesco Flammini" desc="Ph.D., Professor at University of Applied Sciences and Arts of Southern Switzerland (CH)" img={Flammini} type="Keynote Speaker"/>
+            <ProfileCard name="Dr. Anand Nayyar" desc="Ph.D., Professor, Researcher and Scientist at Duy Tan University, Da Nang, Vietnam" img={Anand} type="Keynote Speaker"/>
+            {/* <ProfileCard name="Dr. Paolo Trunfio" desc="Ph.D., Associate Professor of Computer Engineering, University of Calabria, Italy" img={Paolo} type="Keynote Speaker"/> */}
+            {/* <ProfileCard name="Dr. Anand Nayyar" desc="Faculty, Researcher and Scientist at Duy Tan University, Da Nang, Vietnam" img={Anand} type="Keynote Speaker"/> */}
           </div>
         </div>
         <div className="publications-section">
