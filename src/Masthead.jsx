@@ -5,7 +5,7 @@ import Acm from "./assets/ACMO.svg";
 import Vvce from "./assets/vvce.png";
 import Neu from "./assets/neuwt.png";
 import Cse from "./assets/indexers/cse.png";
-import AICDMB_BRAIN from './assets/AICDMB22_single.svg'
+import AICDMB_BRAIN from './assets/AICDMB23_single.svg'
 import img1 from "./assets/Carousel Images/1.jpg";
 import "./MastStyles.css";
 import ExternalSolid from "./assets/external-link-alt-solid.svg";
@@ -48,9 +48,9 @@ const Masthead = () => {
               width="100px"
             /> */}
             {/* <h1 className="spons-text mt-2">AICTE Sponsored</h1> */}
-            <h1 className="mb-1 mastHead lead-text">AICDMB 2022</h1>
+            <h1 className="mb-1 mastHead lead-text">AICDMB 2023</h1>
             <h2 className="desc">
-              <span className="custom-text-col">Third</span> Annual
+              <span className="custom-text-col">Fourth</span> Annual
               International Conference on Data Science, Machine Learning and
               Blockchain Technology
             </h2>
@@ -72,7 +72,7 @@ const Masthead = () => {
             <div className="row details-block text-left">
           <div className="col-6 details mt-3">
             <h5 className="details-head">WHEN</h5>
-            <h3 className="details-text">February 16 & 17, 2022</h3>
+            <h3 className="details-text">February 2023</h3>
           </div>
           <div className="col-6 details mt-3">
             <h5 className="details-head">WHERE</h5>

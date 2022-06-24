@@ -31,20 +31,20 @@ const PapersPage = () => {
                 <tr>
                   <td>Paper Submission Deadline</td>
                   <td>
-                    October 20, 2021
+                    October 2022
                   </td>
                 </tr>
                 <tr>
                   <td>Paper Acceptance Notification</td>
-                  <td>December 10, 2021</td>
+                  <td>December 2022</td>
                 </tr>
                 <tr>
                   <td>Copyright and Final Paper Submission</td>
-                  <td>December 30, 2021</td>
+                  <td>December 2022</td>
                 </tr>
                 <tr>
                   <td>Conference Dates</td>
-                  <td>February 16 & 17, 2022</td>
+                  <td>February 2023</td>
                 </tr>
               </tbody>
             </table>
