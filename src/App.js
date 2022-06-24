@@ -13,6 +13,7 @@ import Footer from "./Footer";
 import Organizers from "./Organizers";
 import Register from "./register";
 import Aicdmb21 from "./Aicdmb21";
+import Aicdmb22 from "./Aicdmb22";
 import Guidelines from "./Guidelines";
 
 function App() {
@@ -43,6 +44,9 @@ function App() {
         </Route>
         <Route exact path="/aicdmb21">
           <Aicdmb21 />
+        </Route>
+        <Route exact path="/aicdmb22">
+          <Aicdmb22 />
         </Route>
         <Route exact path="/">
           <Home />

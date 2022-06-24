@@ -54,13 +54,13 @@ class Navbar extends Component {
                 </li>
               </NavLink>
               <li>
-                <a href="/#about">About</a>
+                <a href="/AICDMB-2023/#about">About</a>
               </li>
               <li>
                 <Link to="/committee">Committee</Link>
               </li>
               <li>
-                <a href="/#speakers">Speakers</a>
+                <a href="/AICDMB-2023/#speakers">Speakers</a>
               </li>
               <li>
                 <Link to="/publication">Publication</Link>
@@ -78,7 +78,7 @@ class Navbar extends Component {
                   </Dropdown.Toggle>
 
                   <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-3"><Link style={{color: "#000"}} to="/aicdmb21">AICDMB 2022</Link></Dropdown.Item>
+                    <Dropdown.Item href="#/action-3"><Link style={{color: "#000"}} to="/aicdmb22">AICDMB 2022</Link></Dropdown.Item>
                     <Dropdown.Item href="#/action-2"><Link style={{color: "#000"}} to="/aicdmb21">AICDMB 2021</Link></Dropdown.Item>
                     <Dropdown.Item href="#/action-1"><Link style={{color: "#000"}} to="/aicdmb20">AICDMB 2020</Link></Dropdown.Item>
                   </Dropdown.Menu>
