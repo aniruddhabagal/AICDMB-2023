@@ -1,5 +1,5 @@
 {
-  "homepage": "https://aniruddhabagal.github.io/AICDMB-2023",
+  "homepage": ".",
   "name": "aicdmb",
   "author": "Aniruddha Bagal",
   "version": "0.1.0",
@@ -44,7 +44,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0",
     "prettier": "2.0.5"
   }
 }

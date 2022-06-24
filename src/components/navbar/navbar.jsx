@@ -54,13 +54,13 @@ class Navbar extends Component {
                 </li>
               </NavLink>
               <li>
-                <a href="/AICDMB-2023/#about">About</a>
+                <a href="/#about">About</a>
               </li>
               <li>
                 <Link to="/committee">Committee</Link>
               </li>
               <li>
-                <a href="/AICDMB-2023/#speakers">Speakers</a>
+                <a href="/#speakers">Speakers</a>
               </li>
               <li>
                 <Link to="/publication">Publication</Link>
