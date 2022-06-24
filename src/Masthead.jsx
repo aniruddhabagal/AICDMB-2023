@@ -107,15 +107,7 @@ const Masthead = () => {
                 <img src={Vvce} alt="" height="100px" width="100px" />
               </a>
             </div>
-            <div className="col-">
-              <a
-                href="https://neu.edu.tr/?lang=en"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={Neu} alt="" height="100px" width="100px" />
-              </a>
-            </div>
+            
             <div className="col- mx-2">
               <a
                 href="https://vvce.acm.org/"
