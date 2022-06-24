@@ -1,0 +1,25 @@
+.host-section img {
+  filter: drop-shadow(0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.7));
+}
+
+.fullBanner {
+  position: relative;
+  display: show;
+  border: 1px solid blue;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 2em;
+  text-align: center;
+  background-color: royalblue;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
