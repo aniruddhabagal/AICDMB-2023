@@ -73,14 +73,14 @@ const Footer = () => {
             style={{ opacity: "0.5", fontWeight: "100" }}
           >
             <a
-              href="https://www.linkedin.com/in/saathvikdm/"
+              href="https://www.linkedin.com/in/aniruddha-bagal/"
               target="_blank"
               rel="noopener noreferrer"
             >
               Contact Developer
             </a>
           </p>
-          <p className="footer-text text-center">Copyright(c) AICDMB 2021</p>
+          <p className="footer-text text-center">Copyright(c) AICDMB 2023</p>
         </div>
       </div>
     </div>
