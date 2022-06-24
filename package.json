@@ -1,6 +1,7 @@
 {
   "homepage": ".",
   "name": "aicdmb",
+  "author": "Aniruddha Bagal",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
