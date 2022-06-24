@@ -1,9 +1,0 @@
-.carousel-caption {
-    background: rgba(000, 000, 000, 0.5);
-}
-
-@media (max-width: 768px){
-    .carousel-caption {
-        background: rgba(000, 000, 000, 0.5);
-    }
-}
