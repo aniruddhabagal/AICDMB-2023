@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dab7aee6f38092073128b84cce54cdb1",
+    "revision": "ad8431e1d84949c290dd5b3614c483d5",
     "url": "/AICDMB-2023/index.html"
   },
   {
-    "revision": "7a1b6a0d6fd7a8b86bbc",
+    "revision": "5c39c37af118faa1e826",
     "url": "/AICDMB-2023/static/css/2.7e0ae166.chunk.css"
   },
   {
-    "revision": "91050cfba37b2b9c65f6",
+    "revision": "ebe723b9947311b442ef",
     "url": "/AICDMB-2023/static/css/main.9a0d7ab0.chunk.css"
   },
   {
-    "revision": "7a1b6a0d6fd7a8b86bbc",
-    "url": "/AICDMB-2023/static/js/2.e8ac9329.chunk.js"
+    "revision": "5c39c37af118faa1e826",
+    "url": "/AICDMB-2023/static/js/2.dac25383.chunk.js"
   },
   {
     "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "/AICDMB-2023/static/js/2.e8ac9329.chunk.js.LICENSE.txt"
+    "url": "/AICDMB-2023/static/js/2.dac25383.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "91050cfba37b2b9c65f6",
-    "url": "/AICDMB-2023/static/js/main.7502b7fc.chunk.js"
+    "revision": "ebe723b9947311b442ef",
+    "url": "/AICDMB-2023/static/js/main.2a9acb63.chunk.js"
   },
   {
     "revision": "802794f29cb180e334b3",
@@ -72,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/AICDMB-2023/static/media/Rose-Petals.1911e778.svg"
   },
   {
+    "revision": "1cd9d29b35561ac91a1f11a2e2b29538",
+    "url": "/AICDMB-2023/static/media/Sandip.1cd9d29b.jpg"
+  },
+  {
     "revision": "551e87ec82f720f86f0c0eaec3dba98a",
     "url": "/AICDMB-2023/static/media/aicdmb.551e87ec.png"
   },
@@ -98,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c4c3eda6357147738e8f5b4014915068",
     "url": "/AICDMB-2023/static/media/cse.c4c3eda6.png"
+  },
+  {
+    "revision": "e821d8f074ee5277036d95359ea52438",
+    "url": "/AICDMB-2023/static/media/dalibor.e821d8f0.jpg"
   },
   {
     "revision": "90e60297ad35d46aa1abe5171668303d",
@@ -134,6 +142,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "53609baf5cad7a84b6c77fa771605139",
     "url": "/AICDMB-2023/static/media/papers.53609baf.svg"
+  },
+  {
+    "revision": "6df86fbab0f0b5d96851668d6affd14c",
+    "url": "/AICDMB-2023/static/media/paritosh.6df86fba.jpg"
   },
   {
     "revision": "8f8dceb6e1c4c7811981271b50ffcb90",
