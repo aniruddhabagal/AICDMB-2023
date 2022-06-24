@@ -72,7 +72,7 @@ const Masthead = () => {
             <div className="row details-block text-left">
           <div className="col-6 details mt-3">
             <h5 className="details-head">WHEN</h5>
-            <h3 className="details-text">February 2023</h3>
+            <h3 className="details-text">16th & 17th March 2023</h3>
           </div>
           <div className="col-6 details mt-3">
             <h5 className="details-head">WHERE</h5>

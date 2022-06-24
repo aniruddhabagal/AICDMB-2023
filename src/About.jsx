@@ -46,7 +46,7 @@ const About = () => {
                 </tr>
                 <tr>
                   <td>Conference Dates</td>
-                  <td>February 2023</td>
+                  <td>16th & 17th March 2023</td>
                 </tr>
               </tbody>
             </table>
