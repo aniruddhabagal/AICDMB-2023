@@ -6,7 +6,7 @@ import "./SpeakerStyle.css";
 import { Link } from "react-router-dom";
 import Princi from "./assets/faculty/princ.png";
 import Gururaj from "./assets/faculty/gururaj.png";
-import Hod from "./assets/faculty/rkumar.png";
+import Dean from "./assets/faculty/rkumar.png";
 import Rnd from "./assets/faculty/rnd.png";
 
 const About = () => {
@@ -33,16 +33,16 @@ const About = () => {
                 <tr>
                   <td>Paper Submission Deadline</td>
                   <td>
-                    October 2022
+                    August 25, 2022
                   </td>
                 </tr>
                 <tr>
                   <td>Paper Acceptance Notification</td>
-                  <td>December 2022</td>
+                  <td>October 15, 2022</td>
                 </tr>
                 <tr>
                   <td>Copyright and Final Paper Submission</td>
-                  <td>December 2022</td>
+                  <td>December 15, 2022</td>
                 </tr>
                 <tr>
                   <td>Conference Dates</td>

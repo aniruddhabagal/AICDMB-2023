@@ -3,13 +3,17 @@ import "./BodyStyles.css";
 
 import Princi from "./assets/faculty/princ.png";
 import Gururaj from "./assets/faculty/gururaj.png";
-import Hod from "./assets/faculty/rkumar.png";
+import Dean from "./assets/faculty/rkumar.png";
+import Hod from "./assets/faculty/pooja.jpg";
 import Rnd from "./assets/faculty/rnd.png";
 import Reg_cc_2 from "./assets/faculty/Committee Asset/BG-R/reg_cc_2.jpg";
 import Bulent from './assets/faculty/Committee Asset/bulent.jpg'
 
 import Spon_cc_1 from "./assets/faculty/Committee Asset/BG-R/spon_cc_1.jpg";
 import Spon_cc_2 from "./assets/faculty/Committee Asset/BG-R/spon_cc_2.jpg";
+import Ramkrishna from "./assets/faculty/Committee Asset/BG-R/ramkrishna.jpg";
+import Ambika from "./assets/faculty/Committee Asset/BG-R/Ambika.jpg";
+import Thanuja from "./assets/faculty/Committee Asset/BG-R/thanuja.jpg";
 
 import Scs from "./assets/faculty/Committee Asset/BG-R/scs.jpg";
 import Dcs from "./assets/faculty/Committee Asset/BG-R/dcs.jpg";
@@ -123,6 +127,18 @@ const Organizers = () => {
             </p>
           </div>
         </div>
+        <div class="profile-card" style={{ height: "420px" }}>
+          <div class="profileImage">
+            <img src={Dean} alt="" className="staff-img" />
+          </div>
+          <div class="profileHead">
+            <h4 class="profileHeadText">Dr. Ravi Kumar V</h4>
+            <h5 className="text-center">Program Chair</h5>
+            <p className="speaker-desc text-center">
+              Professor and Dean Faculty of CSE, VVCE, Mysuru
+            </p>
+          </div>
+        </div>
         {/* <div class="profile-card" style={{ height: "420px" }}>
           <div class="profileImage">
             <img src={Bulent} alt="" className="staff-img" height="100%" width="100%"/>
@@ -147,7 +163,7 @@ const Organizers = () => {
             <img src={Hod} alt="" className="staff-img" />
           </div>
           <div class="profileHead">
-            <h4 class="profileHeadText">Dr. Ravi Kumar V</h4>
+            <h4 class="profileHeadText">Dr. Pooja M R</h4>
             <h5 className="text-center">Program Chair</h5>
             <p className="speaker-desc text-center">
               Professor and Head of Dept. of CSE, VVCE, Mysuru
@@ -192,13 +208,13 @@ Near East University, Turkey
       <div className="container">
         <div className="row_center mt-5">
           <Staffcard img={Spon_cc_1} name="Dr. Janhavi V" designation="Associate Professor, VVCE" />
+          <Staffcard img={Ramkrishna} name="Dr. Ramakrishna Hegde" designation="Associate Professor, VVCE" />
           <Staffcard img={Scs} name="Prof. Shraddha C" designation="Assistant Professor, VVCE"  />
           <Staffcard img={Dcs} name="Prof. Divya C D" designation="Assistant Professor, VVCE"  />
           <Staffcard img={Rcs} name="Prof. Radhika A D" designation="Assistant Professor, VVCE"  />
-          <Staffcard img={Web_cc_3} name="Prof. Rakesh K R" designation="Assistant Professor, VVCE"  />
-          <Staffcard img={Reg_cc_2} name="Prof. Harshitha K" designation="Assistant Professor, VVCE"  />
+          <Staffcard img={Ambika} name="Prof. Ambika V" designation="Assistant Professor, VVCE"  />
           <Staffcard img={Spon_cc_2} name="Prof. Swathi B H" designation="Assistant Professor, VVCE"  />
-          <Staffcard img={Ppr} name="Prof. Pruthvi P R" designation="Assistant Professor, VVCE"  />
+          <Staffcard img={Thanuja} name="Prof. Thanuja Kayarga" designation="Assistant Professor, VVCE"  />
           <Staffcard img={Sunil} name="Prof. Sunil Kumar B R" designation="Assistant Professor, VVCE"  />
         </div>
         <h1 className="display-5 text-center mt-5">
@@ -269,11 +285,11 @@ Near East University, Turkey
           <li>
             Prof. Yu-Chen Hu, Professor, Providence University, Taiwan
           </li>
-          <li>
+          {/* <li>
             Dr. Sandeep Chakraborty, Assistant Professor, Department of Computer
             Science and Engineering, Indian Institute of Technology Kharagpur,
             India.
-          </li>
+          </li> */}
           <li>
             Dr. Arun Solanki, Gautam Buddha University Greater Noida, India.
           </li>
