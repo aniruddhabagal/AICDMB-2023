@@ -87,7 +87,7 @@ const Speakers = () => {
           </div>
         </div>
 
-        <div class="profile-card">
+        {/* <div class="profile-card">
           <div class="profileImage">
             <img src={sandip} alt="" className="staff-img" />
           </div>
@@ -99,7 +99,7 @@ const Speakers = () => {
             </p>
           </div>
           <div class="profileContent">
-            {/* <p class="profileDescription">
+            <p class="profileDescription">
               Anand Nayyar is working as Faculty, Researcher and Scientist in
               Graduate School, Duy Tan University, Da Nang, Vietnam from January
               2018. Prior to this, he has worked as Assistant Professor in
@@ -107,9 +107,9 @@ const Speakers = () => {
               December 2017. Before that, he served as Lecturer in Computer
               Science Department of Arya College and KLSD College, Affiliated to
               Punjab University, Chandigarh from 2009 to 2011.
-            </p> */}
+            </p>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* <h1 className="display-5 text-center mt-5">Plenary Speakers</h1><hr className="ruler"/>
