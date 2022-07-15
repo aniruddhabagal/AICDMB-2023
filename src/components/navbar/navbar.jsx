@@ -72,6 +72,9 @@ class Navbar extends Component {
                 <Link to="/register">Registration</Link>
               </li>
               <li>
+                <Link to="/register">Workshops</Link>
+              </li>
+              <li>
                 <Dropdown style={{paddingBottom: "10px"}}>
                   <Dropdown.Toggle variant="success" id="dropdown-basic">
                     Previous Conferences
