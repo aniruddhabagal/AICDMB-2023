@@ -72,7 +72,7 @@ class Navbar extends Component {
                 <Link to="/register">Registration</Link>
               </li>
               <li>
-                <Link to="/register">Workshops</Link>
+                <Link to="/workshops">Workshops</Link>
               </li>
               <li>
                 <Dropdown style={{paddingBottom: "10px"}}>
