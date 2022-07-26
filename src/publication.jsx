@@ -15,24 +15,23 @@ const Publication = () => {
           <ul style={{ fontSize: "1.3em" }}>
             <li>
               All the accepted and presented papers will be published in{" "}
-              <span className="color-red">IOP </span> Conference Series:
-              Material Science and Engineering{" "}
-              <span className="color-red">(Indexed by WoS)</span>(Submitted)
+              <span className="color-red"></span> CRC Conference Proceedings.
+              {/* Material Science and Engineering{" "} */}
+              <span className="color-red">(Indexed by Scopus & WoS)</span><span className="color-orange">(Submitted)</span>
             </li>
             <li>
               All extended papers of the conference will be published in
               <ul>
                 <li>
-                  IET Edited Book "Disease Analysis and Prediction using Data
-                  Science"{" "}
+                CRC Press Edited Book "Intelligent Systems in Healthcare and Disease Identification using Data Science{" "}
                   <span className="color-red">(indexed by Scopus & WoS)</span>
-                  (Submitted)
+                  <span className="color-green">(Accepted)</span>
                 </li>
+      
                 <li>
-                  Taylor & Francis Edited Book "Data science for Disease
-                  Prediction"{" "}
+                IAP Edited Book "Convergence of Cyber Security and Cloud Computing{" "}
                   <span className="color-red">(Indexed by Scopus & WoS)</span>
-                  (Submitted)
+                  <span className="color-green">(Accepted)</span>
                 </li>
                 <li>More publications will be updated soon.</li>
               </ul>

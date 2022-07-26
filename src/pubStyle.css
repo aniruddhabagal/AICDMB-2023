@@ -2,6 +2,13 @@
   color: red;
 }
 
+.color-orange {
+  color: orange;
+}
+.color-green {
+  color: rgb(13, 232, 13);
+}
+
 .div-bg-col {
   /* background-color: rgba(83, 65, 250, 0.2); */
   border-radius: 5px;
