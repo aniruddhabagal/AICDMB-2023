@@ -133,7 +133,7 @@ const Organizers = () => {
           </div>
           <div class="profileHead">
             <h4 class="profileHeadText">Dr. Ravi Kumar V</h4>
-            <h5 className="text-center">Program Chair</h5>
+            <h5 className="text-center">General Co-Chair</h5>
             <p className="speaker-desc text-center">
               Professor and Dean Faculty of CSE, VVCE, Mysuru
             </p>

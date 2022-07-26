@@ -15,6 +15,7 @@ import Register from "./register";
 import Aicdmb21 from "./Aicdmb21";
 import Aicdmb22 from "./Aicdmb22";
 import Guidelines from "./Guidelines";
+import Workshop from "./Workshop";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
         </Route>
         <Route exact path="/register">
           <Register />
+        </Route>
+        <Route exact path="/workshop">
+          <Workshop />
         </Route>
         <Route exact path="/committee">
           <Organizers />
