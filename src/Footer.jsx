@@ -24,6 +24,9 @@ const Footer = () => {
             <li className="footer-link">
               <Link to="/register">Registration</Link>
             </li>
+            <li className="footer-link">
+              <Link to="/Workshop">Workshops</Link>
+            </li>
             {/* <li className="footer-link">
               <Link to="/aicdmb20">AICDMB 2019-20</Link>
             </li> */}
