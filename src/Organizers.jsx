@@ -7,7 +7,8 @@ import Dean from "./assets/faculty/rkumar.png";
 import Hod from "./assets/faculty/pooja.jpg";
 import Rnd from "./assets/faculty/rnd.png";
 import Reg_cc_2 from "./assets/faculty/Committee Asset/BG-R/reg_cc_2.jpg";
-import Bulent from './assets/faculty/Committee Asset/bulent.jpg'
+import Bulent from "./assets/faculty/Committee Asset/bulent.jpg";
+import Flammini from "./assets/speakers/flammini.jpg";
 
 import Spon_cc_1 from "./assets/faculty/Committee Asset/BG-R/spon_cc_1.jpg";
 import Spon_cc_2 from "./assets/faculty/Committee Asset/BG-R/spon_cc_2.jpg";
@@ -21,8 +22,8 @@ import Rcs from "./assets/faculty/Committee Asset/BG-R/rcs.jpg";
 import Ppr from "./assets/faculty/Committee Asset/BG-R/ppr.jpg";
 import Sunil from "./assets/faculty/Committee Asset/sunil.jpg";
 
-import Fadi from './assets/faculty/Committee Asset/fadi.jpg'
-import Kurt from './assets/faculty/Committee Asset/kurt.jpg'
+import Fadi from "./assets/faculty/Committee Asset/fadi.jpg";
+import Kurt from "./assets/faculty/Committee Asset/kurt.jpg";
 
 import Web_cc_3 from "./assets/faculty/Committee Asset/BG-R/web_cc_3.jpg";
 import Vvs_prez from "./assets/faculty/Committee Asset/Patrons/vvs_prez.jpg";
@@ -101,7 +102,6 @@ const Organizers = () => {
         </div>       
       </div> */}
 
-
       <h1 className="display-5 text-center mt-5">General Co-Chairs</h1>
       <hr className="ruler" style={{ width: "200px" }} />
       <div class="profile-card-container">
@@ -153,7 +153,7 @@ const Organizers = () => {
         </div> */}
       </div>
 
-{/* publication co chair DR fadi */}
+      {/* publication co chair DR fadi */}
 
       <h1 className="display-5 text-center mt-5">Program Co-Chairs</h1>
       <hr className="ruler" style={{ width: "200px" }} />
@@ -183,6 +183,21 @@ const Organizers = () => {
             </p>
           </div>
         </div>
+        <div class="profile-card" style={{ height: "420px" }}>
+          <div class="profileImage">
+            <img src={Flammini} alt="" className="staff-img" />
+          </div>
+          <div class="profileHead">
+            <h4 class="profileHeadText">Dr. Francesco Flammini</h4>
+            <h5 className="text-center">Program Co-Chair</h5>
+            <p className="speaker-desc text-center">
+              IDSIA USI-SUPSI,
+              <br />
+              University of Applied Sciences & <br /> Arts of Southern
+              Switzerland (CH)
+            </p>
+          </div>
+        </div>
       </div>
 
       {/* <h1 className="display-5 text-center mt-5">Publication Chair</h1> */}
@@ -207,15 +222,51 @@ Near East University, Turkey
       <hr className="ruler" style={{ width: "200px" }} />
       <div className="container">
         <div className="row_center mt-5">
-          <Staffcard img={Spon_cc_1} name="Dr. Janhavi V" designation="Associate Professor, VVCE" />
-          <Staffcard img={Ramkrishna} name="Dr. Ramakrishna Hegde" designation="Associate Professor, VVCE" />
-          <Staffcard img={Scs} name="Prof. Shraddha C" designation="Assistant Professor, VVCE"  />
-          <Staffcard img={Dcs} name="Prof. Divya C D" designation="Assistant Professor, VVCE"  />
-          <Staffcard img={Rcs} name="Prof. Radhika A D" designation="Assistant Professor, VVCE"  />
-          <Staffcard img={Ambika} name="Prof. Ambika V" designation="Assistant Professor, VVCE"  />
-          <Staffcard img={Spon_cc_2} name="Prof. Swathi B H" designation="Assistant Professor, VVCE"  />
-          <Staffcard img={Thanuja} name="Prof. Thanuja Kayarga" designation="Assistant Professor, VVCE"  />
-          <Staffcard img={Sunil} name="Prof. Sunil Kumar B R" designation="Assistant Professor, VVCE"  />
+          <Staffcard
+            img={Spon_cc_1}
+            name="Dr. Janhavi V"
+            designation="Associate Professor, VVCE"
+          />
+          <Staffcard
+            img={Ramkrishna}
+            name="Dr. Ramakrishna Hegde"
+            designation="Associate Professor, VVCE"
+          />
+          <Staffcard
+            img={Scs}
+            name="Prof. Shraddha C"
+            designation="Assistant Professor, VVCE"
+          />
+          <Staffcard
+            img={Dcs}
+            name="Prof. Divya C D"
+            designation="Assistant Professor, VVCE"
+          />
+          <Staffcard
+            img={Rcs}
+            name="Prof. Radhika A D"
+            designation="Assistant Professor, VVCE"
+          />
+          <Staffcard
+            img={Ambika}
+            name="Prof. Ambika V"
+            designation="Assistant Professor, VVCE"
+          />
+          <Staffcard
+            img={Spon_cc_2}
+            name="Prof. Swathi B H"
+            designation="Assistant Professor, VVCE"
+          />
+          <Staffcard
+            img={Thanuja}
+            name="Prof. Thanuja Kayarga"
+            designation="Assistant Professor, VVCE"
+          />
+          <Staffcard
+            img={Sunil}
+            name="Prof. Sunil Kumar B R"
+            designation="Assistant Professor, VVCE"
+          />
         </div>
         <h1 className="display-5 text-center mt-5">
           Advisory and Review Committee
@@ -226,10 +277,12 @@ Near East University, Turkey
             Dr. Hong Lin, Ph.D., Professor at University of Downtown, Houston
           </li>
           <li>
-            Dr. Heena Rathore, ACM Distinguished Speaker, Assistant Professor at University of Texas, USA
+            Dr. Heena Rathore, ACM Distinguished Speaker, Assistant Professor at
+            University of Texas, USA
           </li>
           <li>
-          Dr. Paolo Trunfio, Ph.D., Associate Professor of Computer Engineering, University of Calabria, Italy
+            Dr. Paolo Trunfio, Ph.D., Associate Professor of Computer
+            Engineering, University of Calabria, Italy
           </li>
           <li>
             Dr. Fernando Koch, IBM GTS Innovation Senior Technical Solutions
@@ -282,9 +335,7 @@ Near East University, Turkey
         </h1>
         <hr className="ruler" />
         <ul className="mb-5">
-          <li>
-            Prof. Yu-Chen Hu, Professor, Providence University, Taiwan
-          </li>
+          <li>Prof. Yu-Chen Hu, Professor, Providence University, Taiwan</li>
           {/* <li>
             Dr. Sandeep Chakraborty, Assistant Professor, Department of Computer
             Science and Engineering, Indian Institute of Technology Kharagpur,
