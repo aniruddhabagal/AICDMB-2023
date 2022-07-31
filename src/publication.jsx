@@ -15,27 +15,51 @@ const Publication = () => {
           <ul style={{ fontSize: "1.3em" }}>
             <li>
               All the accepted and presented papers will be published in{" "}
-              <span className="color-red"></span> CRC Conference Proceedings.
+              <span className="color-red"></span> CRC Conference Proceedings.{" "}
               {/* Material Science and Engineering{" "} */}
-              <span className="color-red">(Indexed by Scopus & WoS)</span><span className="color-orange">(Submitted)</span>
+              <span className="color-red">
+                (Taylor & Francis Group) (Indexed by Scopus, Clarivate ISI, EI
+                Compendex) (
+              </span>
+              <span className="color-orange">(Submitted)</span>
             </li>
             <li>
               All extended papers of the conference will be published in
               <ul>
                 <li>
-                CRC Press Edited Book "Intelligent Systems in Healthcare and Disease Identification using Data Science{" "}
+                  Special Issue of Data Infrastructures-MDPI journal ESCI
+                  indexed, IF=2.98
+                  <a href="https://www.mdpi.com/journal/infrastructures/special_issues/588G54Z5IK">
+                    {" "}
+                    (Link)
+                  </a>
+                </li>
+                <li>
+                  International Journal of Critical Computer-Based Systems-
+                  Inderscience Journal.{" "}
+                  <span className="color-red">
+                    (Indexed by Scopus){" "}
+                    <a href=" https://www.inderscience.com/jhome.php?jcode=ijccbs">
+                      (Link)
+                    </a>
+                  </span>
+                </li>
+                <li>
+                  CRC Press Edited Book on “Intelligent Systems in Healthcare
+                  and Disease Identification using Data Science”{" "}
                   <span className="color-red">(indexed by Scopus & WoS)</span>
                   <span className="color-green">(Accepted)</span>
                 </li>
-      
+
                 <li>
-                IAP Edited Book "Convergence of Cyber Security and Cloud Computing{" "}
+                  IAP Edited Book on “Convergence of Cyber Security and Cloud
+                  Computing”{" "}
                   <span className="color-red">(Indexed by Scopus & WoS)</span>
                   <span className="color-green">(Accepted)</span>
                 </li>
-                <li>More publications will be updated soon.</li>
               </ul>
             </li>
+            <li>More publications will be updated soon.</li>
           </ul>
         </div>
       </div>
