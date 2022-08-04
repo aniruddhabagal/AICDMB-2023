@@ -32,9 +32,7 @@ const About = () => {
               <tbody>
                 <tr>
                   <td>Paper Submission Deadline</td>
-                  <td>
-                    August 25, 2022
-                  </td>
+                  <td>August 25, 2022</td>
                 </tr>
                 <tr>
                   <td>Paper Acceptance Notification</td>
@@ -52,11 +50,10 @@ const About = () => {
             </table>
             <p className="text-center">
               <a
-                href="https://easychair.org/conferences/?conf=aicdmb2022"
+                href="https://easychair.org/conferences/?conf=aicdmb2023"
                 class="text-center mb-4 mt-4 btn btn-alt mb-3 btn-border btn-border"
                 target="_blank"
                 rel="noopener noreferrer"
-                
               >
                 Submit Now!
               </a>
@@ -64,7 +61,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      
+
       <div id="about" className="container about-section">
         <h1 className="display-5 text-center">About the Conference</h1>
         <hr className="ruler" />
