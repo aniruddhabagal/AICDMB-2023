@@ -18,7 +18,7 @@ const Register = () => {
             <li>UG / PG / PhD Scholars</li>
             <a
               // href="https://forms.gle/db4XRHH76jWcVqkEA"
-              href="##"
+              href="https://easychair.org/conferences/?conf=aicdmb2023"
               class="text-center mb-4 mt-4 btn btn-alt mb-3 btn-border btn-border"
             >
               Register
@@ -37,7 +37,7 @@ const Register = () => {
             <li>Academicians / Industry Persons</li>
             <a
               // href="https://forms.gle/db4XRHH76jWcVqkEA"
-              href="##"
+              href="https://easychair.org/conferences/?conf=aicdmb2023"
               class="text-center mb-4 mt-4 btn btn-alt mb-3 btn-border btn-border"
             >
               Register

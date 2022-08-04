@@ -27,12 +27,10 @@ const PapersPage = () => {
               format through the Easy Chair Account.
             </p>
             <table class="table table-light mt-4">
-            <tbody>
+              <tbody>
                 <tr>
                   <td>Paper Submission Deadline</td>
-                  <td>
-                    August 15, 2022
-                  </td>
+                  <td>August 15, 2022</td>
                 </tr>
                 <tr>
                   <td>Paper Acceptance Notification</td>
@@ -56,11 +54,10 @@ const PapersPage = () => {
             {/* <h4>Submission and Registration begins soon.</h4> */}
             <p className="text-center">
               <a
-                href="https://easychair.org/conferences/?conf=aicdmb2022"
+                href="https://easychair.org/conferences/?conf=aicdmb2023"
                 class="text-center mb-4 mt-4 btn btn-alt mb-3 btn-border btn-border"
                 target="_blank"
                 rel="noopener noreferrer"
-                
               >
                 Submit Now!
               </a>
