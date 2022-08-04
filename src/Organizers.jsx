@@ -259,7 +259,7 @@ Near East University, Turkey
           />
           <Staffcard
             img={Thanuja}
-            name="Prof. Thanuja Kayarga"
+            name="Prof. Tanuja Kayarga"
             designation="Assistant Professor, VVCE"
           />
           <Staffcard
