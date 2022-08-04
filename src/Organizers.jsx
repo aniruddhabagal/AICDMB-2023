@@ -155,7 +155,7 @@ const Organizers = () => {
 
       {/* publication co chair DR fadi */}
 
-      <h1 className="display-5 text-center mt-5">Program Co-Chairs</h1>
+      <h1 className="display-5 text-center mt-5">Program Chairs</h1>
       <hr className="ruler" style={{ width: "200px" }} />
       <div class="profile-card-container">
         <div class="profile-card" style={{ height: "420px" }}>
@@ -259,7 +259,7 @@ Near East University, Turkey
           />
           <Staffcard
             img={Thanuja}
-            name="Prof. Thanuja Kayarga"
+            name="Prof. Tanuja Kayarga"
             designation="Assistant Professor, VVCE"
           />
           <Staffcard
