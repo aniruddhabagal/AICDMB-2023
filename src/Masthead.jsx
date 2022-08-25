@@ -3,6 +3,8 @@ import "./components/navbar/CustomStyle.css";
 import Aicte from "./assets/aicte.png";
 import Acm from "./assets/ACMO.svg";
 import cps from "./assets/cps_lab.jpg";
+import ieee from "./assets/ieee.png";
+import wing from "./assets/wing.jpg";
 import Vvce from "./assets/vvce.png";
 import Neu from "./assets/neuwt.png";
 import Cse from "./assets/indexers/cse.png";
@@ -151,6 +153,28 @@ const Masthead = () => {
                     rel="noopener noreferrer"
                   >
                     <img src={cps} alt="" height="100px" width="100px" />
+                  </a>
+                </div>
+              </div>
+              <br />
+              <h1 className="spons-text text-left">Supported By</h1>
+              <div className="row">
+                <div className="col- mx-2">
+                  <a
+                    href="https://vvce.ac.in/student-clubs/ieee-computer-society-student-chapter/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={ieee} alt="" height="100px" width="150px" />
+                  </a>
+                </div>
+                <div className="col- mx-2">
+                  <a
+                    href="http://wing.vvce.ac.in/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={wing} alt="" height="100px" width="150px" />
                   </a>
                 </div>
               </div>
