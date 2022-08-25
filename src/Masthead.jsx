@@ -1,11 +1,15 @@
 import React from "react";
 import "./components/navbar/CustomStyle.css";
+import "./marquee.css";
 import Aicte from "./assets/aicte.png";
 import Acm from "./assets/ACMO.svg";
+import cps from "./assets/cps_lab.jpg";
+import ieee from "./assets/ieee.png";
+import wing from "./assets/wing.jpg";
 import Vvce from "./assets/vvce.png";
 import Neu from "./assets/neuwt.png";
 import Cse from "./assets/indexers/cse.png";
-import AICDMB_BRAIN from './assets/AICDMB23_single.svg'
+import AICDMB_BRAIN from "./assets/AICDMB23_single.svg";
 import img1 from "./assets/Carousel Images/1.jpg";
 import "./MastStyles.css";
 import ExternalSolid from "./assets/external-link-alt-solid.svg";
@@ -39,6 +43,15 @@ const Masthead = () => {
               className="lead-img img-fluid mb-3 mb-md-0"
             />
           </div>
+          <marquee
+            class="marq"
+            behavior="scroll"
+            scrollamount="13"
+            direction="left"
+          >
+            Paper submission deadline has been extended upto 30th September,
+            2022.
+          </marquee>
           <div className="col-md-8 order-md-1 text-center text-md-left pr-md-5">
             {/* <img
               className="mt-lg-ed5"
@@ -61,63 +74,71 @@ const Masthead = () => {
             {/* <h1 className="mb-3 mastHead lead-text">Annual International Conference on Data Science, Machine Learning and Blockchain Technology (AICDMB)</h1> */}
             <div class="d-flex flex-column flex-md-row flex-xs-row">
               {/* <a href="#about" class="btn btn-lg btn-primary mb-3 mr-md-3 btn-border" onclick="#">Get Started</a> */}
-              <a href="#papers" class="btn-alt mb-3 mr-md-3 btn-border" style={{backgroundColor: "#0069d9"}}>
+              <a
+                href="#papers"
+                class="btn-alt mb-3 mr-md-3 btn-border"
+                style={{ backgroundColor: "#0069d9" }}
+              >
                 Call for Papers
               </a>
               {/* <a href="#" class="btn btn-lg btn-primary mb-3 btn-border btn-dark-border" onclick="#">Register</a> */}
-              <Link className="btn-alt mb-3 btn-border"  style={{backgroundColor: "#218838"}} to="/register">
+              <Link
+                className="btn-alt mb-3 btn-border"
+                style={{ backgroundColor: "#218838" }}
+                to="/register"
+              >
                 Register
               </Link>
             </div>
             <div className="row details-block text-left">
-          <div className="col-6 details mt-3">
-            <h5 className="details-head">WHEN</h5>
-            <h3 className="details-text">16th & 17th March 2023</h3>
-          </div>
-          <div className="col-6 details mt-3">
-            <h5 className="details-head">WHERE</h5>
-            <h3 className="details-text">
-              <a
-                href="https://vvce.ac.in/"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ color: "#fff" }}
-              >
-                Vidyavardhaka College of Engineering, Mysuru{" "}
-                <img
-                  className="svg-icon"
-                  src={ExternalSolid}
-                  alt=""
-                  height="10px"
-                  width="10px"
-                />
-              </a>
-            </h3>
-          </div>
-          </div>
-          <div className="host-section">
-          <h1 className="spons-text text-left">Hosted by</h1>
-          <div className="row">
-            <div className="col- mx-2">
-              <a
-                href="https://vvce.ac.in/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={Vvce} alt="" height="100px" width="100px" />
-              </a>
+              <div className="col-6 details mt-3">
+                <h5 className="details-head">WHEN</h5>
+                <h3 className="details-text">16th & 17th March 2023</h3>
+              </div>
+              <div className="col-6 details mt-3">
+                <h5 className="details-head">WHERE</h5>
+                <h3 className="details-text">
+                  <a
+                    href="https://vvce.ac.in/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "#fff" }}
+                  >
+                    Vidyavardhaka College of Engineering, Mysuru{" "}
+                    <img
+                      className="svg-icon"
+                      src={ExternalSolid}
+                      alt=""
+                      height="10px"
+                      width="10px"
+                    />
+                  </a>
+                </h3>
+              </div>
             </div>
-            
-            <div className="col- mx-2">
-              <a
-                href="https://vvce.acm.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={Acm} alt="" height="100px" width="100px" />
-              </a>
-            </div>
-            {/* <div className="col- mx-2">
+            <div className="host-section">
+              <h1 className="spons-text text-left">Hosted by</h1>
+              <div className="row">
+                <div className="col- mx-2">
+                  <a
+                    href="https://vvce.ac.in/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={Vvce} alt="" height="100px" width="100px" />
+                  </a>
+                </div>
+
+                <div className="col- mx-2">
+                  <a
+                    href="https://vvce.acm.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={Acm} alt="" height="100px" width="100px" />
+                  </a>
+                </div>
+                {/* <div className="col- mx-2">
               <a
                 href="https://www.iop.org/"
                 target="_blank"
@@ -135,12 +156,41 @@ const Masthead = () => {
                 style={{ transform: "translateY(-10px)" }}
               />
             </div> */}
+                <div className="col- mx-2">
+                  <a
+                    href="https://lnu.se/en/research/searchresearch/cyber-physical-systems-cps/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={cps} alt="" height="100px" width="100px" />
+                  </a>
+                </div>
+              </div>
+              <br />
+              <h1 className="spons-text text-left">Supported By</h1>
+              <div className="row">
+                <div className="col- mx-2">
+                  <a
+                    href="https://vvce.ac.in/student-clubs/ieee-computer-society-student-chapter/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={ieee} alt="" height="100px" width="150px" />
+                  </a>
+                </div>
+                <div className="col- mx-2">
+                  <a
+                    href="http://wing.vvce.ac.in/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={wing} alt="" height="100px" width="150px" />
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        </div>
-        
-        </div>
-        
       </div>
     </div>
   );
