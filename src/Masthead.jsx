@@ -1,5 +1,6 @@
 import React from "react";
 import "./components/navbar/CustomStyle.css";
+import "./marquee.css";
 import Aicte from "./assets/aicte.png";
 import Acm from "./assets/ACMO.svg";
 import cps from "./assets/cps_lab.jpg";
@@ -42,6 +43,15 @@ const Masthead = () => {
               className="lead-img img-fluid mb-3 mb-md-0"
             />
           </div>
+          <marquee
+            class="marq"
+            behavior="scroll"
+            scrollamount="13"
+            direction="left"
+          >
+            Paper submission deadline has been extended upto 30th September,
+            2022.
+          </marquee>
           <div className="col-md-8 order-md-1 text-center text-md-left pr-md-5">
             {/* <img
               className="mt-lg-ed5"
