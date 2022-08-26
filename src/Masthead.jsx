@@ -5,6 +5,8 @@ import Aicte from "./assets/aicte.png";
 import Acm from "./assets/ACMO.svg";
 import cps from "./assets/cps_lab.jpg";
 import ieee from "./assets/ieee.png";
+import techSp1 from "./assets/Tech Sponsor1.png";
+import techSp2 from "./assets/Tech Sponsor2.png";
 import wing from "./assets/wing.jpg";
 import Vvce from "./assets/vvce.png";
 import Neu from "./assets/neuwt.png";
@@ -186,6 +188,20 @@ const Masthead = () => {
                   >
                     <img src={wing} alt="" height="100px" width="150px" />
                   </a>
+                </div>
+              </div>
+              <br />
+              <h1 className="spons-text text-left">Technical Sponsors:</h1>
+              <div className="row">
+                <div className="col- mx-2">
+                  {/* <a href="##" target="_blank" rel="noopener noreferrer"> */}
+                  <img src={techSp1} alt="" height="125px" width="125px" />
+                  {/* </a> */}
+                </div>
+                <div className="col- mx-2">
+                  {/* <a href="##" target="_blank" rel="noopener noreferrer"> */}
+                  <img src={techSp2} alt="" height="125px" width="125px" />
+                  {/* </a> */}
                 </div>
               </div>
             </div>

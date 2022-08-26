@@ -22,6 +22,9 @@ const Footer = () => {
               <Link to="/publication">Publication</Link>
             </li>
             <li className="footer-link">
+              <Link to="/guidelines">Author Guidelines</Link>
+            </li>
+            <li className="footer-link">
               <Link to="/register">Registration</Link>
             </li>
             <li className="footer-link">
