@@ -30,6 +30,7 @@ const Home = () => {
       <br />
       <br />
       <br />
+      <br />
       {/* <Slider/> */}
       <Card />
       {/* <Topics/> */}
