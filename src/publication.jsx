@@ -19,9 +19,9 @@ const Publication = () => {
               {/* Material Science and Engineering{" "} */}
               <span className="color-red">
                 (Taylor & Francis Group) (Indexed by Scopus, Clarivate ISI, EI
-                Compendex) (
+                Compendex)
               </span>
-              <span className="color-orange">(Submitted)</span>
+              <span className="color-green">(Accepted)</span>
             </li>
             <li>
               All extended papers of the conference will be published in
