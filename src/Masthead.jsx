@@ -51,8 +51,7 @@ const Masthead = () => {
             scrollamount="13"
             direction="left"
           >
-            Paper submission deadline has been extended upto 30th September,
-            2022.
+            Paper submission deadline has been extended upto 30th October, 2022.
           </marquee>
           <div className="col-md-8 order-md-1 text-center text-md-left pr-md-5">
             {/* <img
