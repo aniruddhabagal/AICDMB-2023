@@ -32,7 +32,7 @@ const PapersPage = () => {
                   <td>Paper Submission Deadline</td>
                   <td>
                     {" "}
-                    <s>September 30th, 2022</s>&nbsp;&nbsp;&nbsp;October 30th,
+                    <s>September 30th, 2022</s>&nbsp;&nbsp;&nbsp;November 30th,
                     2022
                   </td>
                 </tr>
