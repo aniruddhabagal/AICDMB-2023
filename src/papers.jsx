@@ -42,7 +42,7 @@ const PapersPage = () => {
                 </tr>
                 <tr>
                   <td>Copyright and Final Paper Submission</td>
-                  <td>January 31st, 2023</td>
+                  <td>January 25th, 2023</td>
                 </tr>
                 <tr>
                   <td>Conference Dates</td>
