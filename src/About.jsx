@@ -39,11 +39,11 @@ const About = () => {
                 </tr>
                 <tr>
                   <td>Paper Acceptance Notification</td>
-                  <td>January 15th, 2023</td>
+                  <td>January 30th, 2023</td>
                 </tr>
                 <tr>
                   <td>Copyright and Final Paper Submission</td>
-                  <td>January 25th, 2023</td>
+                  <td>February 15th, 2023</td>
                 </tr>
                 <tr>
                   <td>Conference Dates</td>
